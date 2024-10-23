@@ -40,24 +40,29 @@ mysite/
 ├── db.sqlite3               # SQLite database
 ├── manage.py                # Django management script
 ├── mysite/
+|   ├── __init__.py
 │   ├── settings.py          # Project settings
 │   ├── urls.py              # Global URL configuration
-│   └── ...                  # Other Django configurations
-│
+│   ├── asgi.py
+│   ├── wsgi.py
+|
 ├── tweet/
 │   ├── migrations/          # Database migrations
 │   ├── templates/           # HTML templates for tweets and layout
 │   │   ├── index.html       # Home page for displaying tweets
 │   │   ├── tweet_form.html  # Form for creating tweets
-│   │   ├── tweet_confirm_delete.html  # Confirmation page for deleting tweets
-│   └── ...
+│   │   ├── tweet_list.html  # Confirmation page for deleting 
 │   ├── admin.py             # Admin configuration
 │   ├── models.py            # Data models for the Tweet app
 │   ├── forms.py             # Forms for creating and deleting tweets
 │   ├── urls.py              # URL routing for tweet-related views
 │   ├── views.py             # Views to handle tweet logic
-│   └── ...
-
+│   ├── apps.py
+|   ├── tests.py
+|   ├── urls.py
+├── db.sqlite3
+├── manage.py
+├── requirements.txt
 
 ## Prerequisites
 
@@ -78,7 +83,7 @@ mysite/
     ```
     python3 -m venv venv
     source venv/bin/activate   # On Windows: venv\Scripts\activate
-    pip install django
+    pip install -r requirements.txt
     ```
 
 3. **Run migrations**:
