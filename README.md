@@ -28,6 +28,10 @@ This is a simple Django-based Twitter-like application where users can create, v
 ### Logged in page
 <img width="946" alt="image" src="https://github.com/user-attachments/assets/bb2e5534-2a23-4426-b678-d8f4bced0031">
 
+### Deletion confirmation page
+<img width="957" alt="image" src="https://github.com/user-attachments/assets/ac95ce20-678b-409c-b459-5efc70dd3161">
+
+
 
 ## Project Structure
 
