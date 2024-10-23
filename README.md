@@ -4,12 +4,30 @@
 This is a simple Django-based Twitter-like application where users can create, view, and delete tweets. It leverages Django's ORM for database management and built-in authentication for user registration and login functionality.
 
 ## Features
-- **User Authentication**: Users can register, log in, and log out.
-- **Create Tweet**: Logged-in users can create new tweets.
-- **List Tweets**: Displays a list of all tweets.
-- **Delete Tweets**: Users can delete their tweets.
+- **User Authentication**: Users can register, log in, and log out using Django's built-in authentication system.
+- **Create Tweet**: Logged-in users can create and post new tweets. The form for creating tweets is simple and user-friendly.
+- **List of Tweets**: The home page shows all tweets from users in chronological order, with pagination if necessary.
+- **Edit/Delete Tweets**: Users can edit or delete their own tweets via the tweet management interface.
+- **Responsive Design**: The application is designed to be accessible on different screen sizes, providing a mobile-friendly user experience.
+- **Admin Interface**: Admins can manage users and tweets through Django’s built-in admin interface.
   
-## Project Structure
+## Screenshots
+
+### Home Page - Tweet List
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/22d14569-d81f-4350-a2a6-b4b8d7dc1fb0">
+
+### Create Tweet Page
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/27653147-c795-4345-b5ca-e1b3e9602581">
+
+### Registration Page
+<img width="953" alt="image" src="https://github.com/user-attachments/assets/3dee2b90-fc88-4f21-8c94-da40e95b26a4">
+
+### Login Page
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/d4eb6a58-d505-4bc9-ab7d-ef556d5ecc3f">
+
+### Logged in page
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/bb2e5534-2a23-4426-b678-d8f4bced0031">
+
 
 ## Project Structure
 
@@ -35,7 +53,6 @@ mysite/
 │   ├── urls.py              # URL routing for tweet-related views
 │   ├── views.py             # Views to handle tweet logic
 │   └── ...
-```
 
 
 ## Prerequisites
