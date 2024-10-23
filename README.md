@@ -63,7 +63,7 @@ mysite/
 ├── db.sqlite3
 ├── manage.py
 ├── requirements.txt
-
+```
 ## Prerequisites
 
 - Python 3.x
